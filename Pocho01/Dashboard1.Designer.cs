@@ -28,50 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.DashboardCommon.ChartPane chartPane1 = new DevExpress.DashboardCommon.ChartPane();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard1));
             DevExpress.DashboardCommon.DashboardLayoutGroup dashboardLayoutGroup1 = new DevExpress.DashboardCommon.DashboardLayoutGroup();
             DevExpress.DashboardCommon.DashboardLayoutItem dashboardLayoutItem1 = new DevExpress.DashboardCommon.DashboardLayoutItem();
-            this.chartDashboardItem1 = new DevExpress.DashboardCommon.ChartDashboardItem();
-            ((System.ComponentModel.ISupportInitialize)(this.chartDashboardItem1)).BeginInit();
+            DevExpress.DashboardCommon.DashboardLayoutItem dashboardLayoutItem2 = new DevExpress.DashboardCommon.DashboardLayoutItem();
+            this.imageDashboardItem1 = new DevExpress.DashboardCommon.ImageDashboardItem();
+            this.textBoxDashboardItem1 = new DevExpress.DashboardCommon.TextBoxDashboardItem();
+            ((System.ComponentModel.ISupportInitialize)(this.imageDashboardItem1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBoxDashboardItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
-            // chartDashboardItem1
+            // imageDashboardItem1
             // 
-            this.chartDashboardItem1.AxisX.TitleVisible = false;
-            this.chartDashboardItem1.ComponentName = "chartDashboardItem1";
-            this.chartDashboardItem1.DataItemRepository.Clear();
-            this.chartDashboardItem1.InteractivityOptions.IgnoreMasterFilters = false;
-            this.chartDashboardItem1.Name = "Gráfico 1";
-            chartPane1.Name = "Panel 1";
-            chartPane1.PrimaryAxisY.AlwaysShowZeroLevel = true;
-            chartPane1.PrimaryAxisY.ShowGridLines = true;
-            chartPane1.PrimaryAxisY.TitleVisible = true;
-            chartPane1.SecondaryAxisY.AlwaysShowZeroLevel = true;
-            chartPane1.SecondaryAxisY.ShowGridLines = false;
-            chartPane1.SecondaryAxisY.TitleVisible = true;
-            this.chartDashboardItem1.Panes.AddRange(new DevExpress.DashboardCommon.ChartPane[] {
-            chartPane1});
-            this.chartDashboardItem1.ShowCaption = true;
+            this.imageDashboardItem1.ComponentName = "imageDashboardItem1";
+            this.imageDashboardItem1.DataSerializable = resources.GetString("imageDashboardItem1.DataSerializable");
+            this.imageDashboardItem1.Name = "Imagen 1";
+            this.imageDashboardItem1.ShowCaption = true;
+            // 
+            // textBoxDashboardItem1
+            // 
+            this.textBoxDashboardItem1.ComponentName = "textBoxDashboardItem1";
+            this.textBoxDashboardItem1.InnerRtf = resources.GetString("textBoxDashboardItem1.InnerRtf");
+            this.textBoxDashboardItem1.Name = "Cuadro de Texto 1";
+            this.textBoxDashboardItem1.ShowCaption = true;
             // 
             // Dashboard1
             // 
             this.Items.AddRange(new DevExpress.DashboardCommon.DashboardItem[] {
-            this.chartDashboardItem1});
-            dashboardLayoutItem1.DashboardItem = this.chartDashboardItem1;
-            dashboardLayoutItem1.Weight = 100D;
+            this.imageDashboardItem1,
+            this.textBoxDashboardItem1});
+            dashboardLayoutItem1.DashboardItem = this.textBoxDashboardItem1;
+            dashboardLayoutItem1.Weight = 50D;
+            dashboardLayoutItem2.DashboardItem = this.imageDashboardItem1;
+            dashboardLayoutItem2.Weight = 50D;
             dashboardLayoutGroup1.ChildNodes.AddRange(new DevExpress.DashboardCommon.DashboardLayoutNode[] {
-            dashboardLayoutItem1});
+            dashboardLayoutItem1,
+            dashboardLayoutItem2});
             dashboardLayoutGroup1.DashboardItem = null;
-            dashboardLayoutGroup1.Orientation = DevExpress.DashboardCommon.DashboardLayoutGroupOrientation.Vertical;
             this.LayoutRoot = dashboardLayoutGroup1;
             this.Title.Text = "Tablero de control";
-            ((System.ComponentModel.ISupportInitialize)(this.chartDashboardItem1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageDashboardItem1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textBoxDashboardItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
 
         #endregion
 
-        private DevExpress.DashboardCommon.ChartDashboardItem chartDashboardItem1;
+        private DevExpress.DashboardCommon.ImageDashboardItem imageDashboardItem1;
+        private DevExpress.DashboardCommon.TextBoxDashboardItem textBoxDashboardItem1;
+
     }
 }

@@ -1,0 +1,9 @@
+C:\Users\PROGRAMACION\Desktop\Prueba\Pocho01\Pocho01\bin\Pocho01.dll.config
+C:\Users\PROGRAMACION\Desktop\Prueba\Pocho01\Pocho01\bin\Pocho01.dll
+C:\Users\PROGRAMACION\Desktop\Prueba\Pocho01\Pocho01\bin\Pocho01.pdb
+C:\Users\PROGRAMACION\Desktop\Prueba\Pocho01\Pocho01\obj\Debug\Pocho01.csprojResolveAssemblyReference.cache
+C:\Users\PROGRAMACION\Desktop\Prueba\Pocho01\Pocho01\obj\Debug\Pocho01.Dashboard1.resources
+C:\Users\PROGRAMACION\Desktop\Prueba\Pocho01\Pocho01\obj\Debug\Pocho01.csproj.GenerateResource.Cache
+C:\Users\PROGRAMACION\Desktop\Prueba\Pocho01\Pocho01\obj\Debug\Pocho01.dll.licenses
+C:\Users\PROGRAMACION\Desktop\Prueba\Pocho01\Pocho01\obj\Debug\Pocho01.dll
+C:\Users\PROGRAMACION\Desktop\Prueba\Pocho01\Pocho01\obj\Debug\Pocho01.pdb
